@@ -17,3 +17,10 @@ A simple program that evaluates the weighted average based on the input weights 
 3) Open with the IDE of your choice [IntelliJ recommended]
 4) Wait for the indexing and setup to process
 5) Run the application present in the Main class
+
+# How It Works
+
+- The program has an underlying map that stores and maps each weight to it's grade
+- The weights each map to a list of grades to handle multiple grades being added to the same weight
+- The entry and deletion methods are written to custom fit this use-case
+- Evaluates the weighted average dividing the sum of the products of each weight and it's particular grade by the sum of all the weights
